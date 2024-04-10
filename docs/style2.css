@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-background {
+    height: 80vh;
+    background: url(Images/pexels-fox-225157.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery-title hr {
+    height: 5px;
+    background-color: black;
+    border-radius: 2px;
+    width: 35px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: none;
+    opacity: 1;
+}
+
+#footer-logo {
+    width: 100%;
+    height: auto;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.offcanvas-title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 991px){
+    .sidebar {
+        background-color: rgb(84, 180, 211, 0.45);
+        backdrop-filter: blur(10px);
+        width: 100px;
+    }
+    .nav-link {
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        color: #fff;
+    }
+
+    #offcanvasNavbar {
+        width: 280px;
+    }
+}
+
+@media (max-width: 360px) {
+    .FAQ-title h3 {
+        font-size:large;
+    }
+}
+
+@media (max-width: 930px) {
+    #footer-logo {
+        display: none;
+    }
+}
